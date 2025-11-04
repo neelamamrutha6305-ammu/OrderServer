@@ -36,3 +36,4 @@ build/
 .mvn/
 mvnw
 mvnw.cmd
+build-and-push.ps1
