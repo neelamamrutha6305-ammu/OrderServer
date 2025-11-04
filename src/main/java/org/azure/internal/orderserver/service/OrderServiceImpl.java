@@ -23,6 +23,7 @@ public class OrderServiceImpl implements OrderService {
 
         double cb = balanceRepository.getBalance();
         System.out.println("placeOrder: Current Balance: " + cb);
+        System.out.println("placeOrder: Product Price: " + orderRequest.getProduct().getPrice());
 
         double p = orderRequest.getProduct().getPrice();
 
